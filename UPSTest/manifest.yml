@@ -1,0 +1,8 @@
+---
+applications:
+- name: test
+  memory: 512M
+  instances: 1
+  path: target/test.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+    
